@@ -1,7 +1,7 @@
 # Customer Shopping Behaviour | Microsoft Excel
 
 ## 🎯 Project Objective
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The objective of this interactive dashboard is to analyze customer shopping behavior and uncover meaningful patterns in purchasing habits, product preferences, brand choices, regional trends, payment preferences, and customer spending. It provides interactive insights into purchase frequency, order value, quantity purchased, discounts, returns, and profitability to help businesses understand customer needs, identify growth opportunities, and make data-driven decisions.
 
 ## 📊 Dataset Description
