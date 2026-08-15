@@ -35,10 +35,10 @@ The dataset includes key attributes such as customer details, purchase informati
 | **Purchase Amount** | Total amount spent on the purchase |
 | **Discount (%)** | Percentage discount applied to the purchase |
 
-## Calculated Columns
+## 🧮 Calculated Columns
 
-Month –Extracted from the Purchase Date
-Year – Extracted from the Purchase Date
-Quarters – Derived from the Purchase Date
-Customer Age Group – Created from Age to categorize customers
-Region - Derived from Location to Purchase
+* **Month** – Extracted from the Purchase Date.
+* **Year** – Extracted from the Purchase Date.
+* **Quarters** – Derived from the Purchase Date.
+* **Customer Age Group** – Created from Age to categorize customers.
+* **Region** - Derived from Location to Purchase.
