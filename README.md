@@ -44,7 +44,7 @@ The dataset includes key attributes such as customer details, purchase informati
 * **Customer Age Group** – Created from Age to categorize customers.
 * **Region** - Derived from Location to Purchase.
 
-## Dashboard Features
+## 📈 Dashboard Features
 
 ### KPI Cards
 
