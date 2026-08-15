@@ -7,6 +7,7 @@ The objective of this interactive dashboard is to analyze customer shopping beha
 ## 📊 Dataset Description
 
 The dataset contains customer shopping and transaction-level information used to analyze purchasing behavior, product preferences, regional performance, payment methods, discounts, returns.
+
 The dataset includes key attributes such as customer details, purchase information, product and brand details, region, transaction dates, quantity, payment mode, discounts, delivery information, and return status.
 
 ### Dataset Columns
