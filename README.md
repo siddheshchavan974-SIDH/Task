@@ -43,3 +43,34 @@ The dataset includes key attributes such as customer details, purchase informati
 * **Quarters** – Derived from the Purchase Date.
 * **Customer Age Group** – Created from Age to categorize customers.
 * **Region** - Derived from Location to Purchase.
+
+## Dashboard Features
+
+###KPI Cards
+
+•	Total Purchase
+•	Average orders
+•	Top Region
+•	Best Brand
+•	Total Quantity
+
+### Charts
+•	📈 Quarterly Purchase Trend
+•	👥 Age Group vs Product Category
+•	💳 Payment Mode Analysis
+•	🌐 Regional Purchase by Online Platform
+•	🏆 Highest-Selling Brand
+•	🛒 Age Group-wise Online & Offline Orders
+
+### Interactive Filters
+•	Quarters
+•	Year
+•	Category
+•	Frequency of Purchases
+•	Return Status
+
+## 📊 Dashboard Preview
+
+<img width="2798" height="865" alt="Customer Shopping Behaviour 2" src="https://github.com/user-attachments/assets/62d4ae4c-431f-48b7-b17b-247bf212951e" />
+
+
