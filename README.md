@@ -1,4 +1,4 @@
-# Customer Shopping Behaviour
+# Customer Shopping Behaviour | Microsoft Excel
 
 ## 🎯 Project Objective
 
@@ -10,7 +10,7 @@ The dataset contains customer shopping and transaction-level information used to
 The dataset includes key attributes such as customer details, purchase information, product and brand details, region, transaction dates, quantity, payment mode, discounts, delivery information, and return status.
 
 ### Dataset Columns
-Cloumn 	Description
+Cloumn	Description
 Transaction ID	Unique identifier for each transaction
 Customer ID	Unique identifier for each customer
 Purchase Date	Date on which the purchase was made
@@ -32,6 +32,7 @@ Size	Size selected for the product
 Quantity	Number of units purchased
 Purchase Amount	Total amount spent on the purchase
 Discount (%)	Percentage discount applied to the purchase
+<img width="767" height="595" alt="image" src="https://github.com/user-attachments/assets/fd9aae62-ab7b-4ab7-8c23-b9bdcc64f432" />
 
 ## Calculated Columns
 
