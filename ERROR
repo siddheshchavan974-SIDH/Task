@@ -1,0 +1,205 @@
+
+
+
+10. Join Conditions
+
+The ON condition determines how tables are connected.
+
+Basic:
+
+ON c.customer_id = o.customer_id
+
+Multiple conditions:
+
+ON c.customer_id = o.customer_id
+AND c.city = o.city
+
+You can also have conditions such as:
+
+ON o.sales >= p.minimum_sales
+
+The key idea is:
+
+ON tells SQL which rows from two tables should be matched.
+
+🟣 SUBQUERIES
+
+A subquery is a query inside another query.
+
+Basic structure:
+
+SELECT *
+FROM orders
+WHERE sales > (
+    SELECT AVG(sales)
+    FROM orders
+);
+
+The inner query calculates average sales first.
+
+Then the outer query finds orders above that average.
+
+11. Scalar Subquery
+
+A scalar subquery returns one value.
+
+Example:
+
+SELECT *
+FROM orders
+WHERE sales > (
+    SELECT AVG(sales)
+    FROM orders
+);
+
+The inner query returns something like:
+
+3750
+
+So SQL effectively performs:
+
+SELECT *
+FROM orders
+WHERE sales > 3750;
+Remember
+
+Scalar = one value
+
+12. Single-Row Subquery
+
+Returns one row.
+
+Example:
+
+Suppose you want employees earning more than Rahul.
+
+SELECT *
+FROM employees
+WHERE salary > (
+    SELECT salary
+    FROM employees
+    WHERE employee_name = 'Rahul'
+);
+
+Inner query:
+
+Rahul → 60000
+
+Outer query:
+
+salary > 60000
+13. Multi-Row Subquery
+
+Returns multiple values.
+
+Example:
+
+Find customers who are located in cities where orders exist.
+
+SELECT *
+FROM customers
+WHERE city IN (
+    SELECT city
+    FROM orders
+);
+
+The inner query might return:
+
+Mumbai
+Pune
+Delhi
+
+Therefore:
+
+WHERE city IN ('Mumbai', 'Pune', 'Delhi')
+14. Correlated Subquery
+
+This is very important.
+
+The inner query depends on the outer query.
+
+Example:
+
+Find customers whose order is greater than their own average order value.
+
+SELECT o1.customer_id,
+       o1.order_id,
+       o1.sales
+FROM orders AS o1
+WHERE o1.sales > (
+    SELECT AVG(o2.sales)
+    FROM orders AS o2
+    WHERE o2.customer_id = o1.customer_id
+);
+
+The inner query changes for every customer.
+
+Conceptually:
+
+Rahul → calculate Rahul's average
+Priya → calculate Priya's average
+Amit  → calculate Amit's average
+
+That's why it is called correlated.
+
+15. IN Subquery
+
+IN checks whether a value belongs to a list returned by a subquery.
+
+SELECT customer_name
+FROM customers
+WHERE customer_id IN (
+    SELECT customer_id
+    FROM orders
+);
+Meaning
+
+Show customers whose IDs exist in Orders.
+
+16. EXISTS
+
+EXISTS checks whether at least one matching row exists.
+
+SELECT c.customer_name
+FROM customers AS c
+WHERE EXISTS (
+    SELECT 1
+    FROM orders AS o
+    WHERE o.customer_id = c.customer_id
+);
+
+Meaning:
+
+Return the customer if at least one matching order exists.
+
+22. NULLIF
+
+Returns NULL when two values are equal.
+
+SELECT NULLIF(10, 10);
+
+Result:
+
+NULL
+
+If:
+
+SELECT NULLIF(10, 5);
+
+Result:
+
+10
+Important Data Analyst use
+
+Prevent division-by-zero errors.
+
+SELECT
+    sales / NULLIF(quantity, 0) AS Sales_Per_Unit
+FROM orders;
+
+If quantity = 0:
+
+10 / NULL
+
+returns NULL instead of causing a division-by-zero problem.
+
