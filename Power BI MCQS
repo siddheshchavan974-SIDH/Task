@@ -1,0 +1,2049 @@
+Power BI MCQs: Basic to Advanced (Complete Practice Series)
+Let's prepare for your Power BI exams, IT Vedant assessments, Data Analyst interviews, and practical knowledge with multiple-choice questions ranging from beginner to expert level.
+
+We'll cover Power BI topics in a structured order, with 50 MCQs per level.
+📚 Complete Power BI MCQ Roadmap
+Level	Topics	Questions
+Level 1: Beginner	Power BI introduction, components, Desktop, Service, reports, dashboards, basic visuals	1–50
+Level 2: Basic to Intermediate	Power Query, data cleaning, data types, relationships, data modeling, filters	51–100
+Level 3: Intermediate	DAX basics, calculated columns, measures, aggregations, slicers, drill-through	101–150
+Level 4: Advanced	Advanced DAX, CALCULATE, FILTER, ALL, time intelligence, row and filter context	151–200
+Level 5: Expert	Performance optimization, RLS, gateways, deployment, incremental refresh, complex scenarios	201–250
+
+
+Instructions:
+- Each question has four options.
+- Select the single best answer.
+- The answer key appears at the end of each level.
+- Questions gradually increase in difficulty.
+- I'll include practical and scenario-based questions as we progress.
+Level 1: Beginner Power BI MCQs
+Questions 1–50
+Section A: Introduction to Power BI
+Q1. What is Microsoft Power BI?
+A. A programming language
+B. A business intelligence and data visualization tool
+C. A database management system
+D. An operating system  
+Q2. Which company developed Power BI?
+A. Google
+B. Amazon
+C. Microsoft
+D. Oracle  
+Q3. What is the primary purpose of Power BI?
+A. To develop mobile operating systems
+B. To analyze data and create interactive reports
+C. To design websites
+D. To manage computer hardware  
+Q4. Which of the following is primarily used to create Power BI reports on a Windows computer?
+A. Power BI Desktop
+B. Power BI Gateway
+C. Power BI Report Server only
+D. Microsoft Access  
+Q5. What is the file extension of a Power BI Desktop report file?
+A. .xlsx
+B. .pbix
+C. .pptx
+D. .docx  
+Q6. Which Power BI component is primarily used to publish, share, and collaborate on reports online?
+A. Power BI Service
+B. Power Query Editor
+C. DAX Studio
+D. Microsoft Paint  
+Q7. What does BI stand for in Power BI?
+A. Business Integration
+B. Basic Information
+C. Business Intelligence
+D. Binary Interface  
+Q8. Which of the following is a common data source for Power BI?
+A. Microsoft Excel
+B. SQL Server
+C. CSV files
+D. All of the above  
+Q9. Which Power BI feature is primarily used to clean and transform data before loading it into a model?
+A. Power Query Editor
+B. Report View
+C. Dashboard View
+D. Presentation Mode  
+Q10. Which language is primarily used to create calculations in Power BI's data model?
+A. HTML
+B. DAX
+C. CSS
+D. Java  
+Section B: Power BI Components and Views
+Q11. What is the full form of DAX?
+A. Data Analysis Expressions
+B. Data Application Extension
+C. Digital Analysis Exchange
+D. Database Analytics Execution  
+Q12. Which view is primarily used to design charts, tables, and other report visuals in Power BI Desktop?
+A. Model View
+B. Report View
+C. Data View
+D. Query View  
+Q13. Which Power BI Desktop view is primarily used to inspect the rows and columns of loaded tables?
+A. Report View
+B. Model View
+C. Table View
+D. Data View  
+Q14. Which view helps you create and manage relationships between tables?
+A. Report View
+B. Model View
+C. Reading View
+D. Dashboard View  
+Q15. What is a Power BI dashboard?
+A. A collection of database tables
+B. A single-page canvas in the Power BI Service that can display tiles from one or more reports or other supported sources
+C. A programming environment
+D. A data-cleaning language  
+Q16. What is a Power BI report?
+A. A collection of interactive report pages containing visualizations
+B. A single database query only
+C. A type of operating system
+D. A file used exclusively for storing images  
+Q17. What is a visual in Power BI?
+A. A data source
+B. A chart, table, card, or another visual representation of data
+C. A database relationship
+D. A programming language  
+Q18. Which visual is best suited to displaying a single KPI, such as Total Sales?
+A. Card
+B. Pie chart
+C. Map
+D. Scatter chart  
+Q19. Which visual is commonly used to compare sales across different product categories?
+A. Bar chart
+B. Gauge
+C. Card
+D. Slicer  
+Q20. Which visual is commonly used to display changes in sales over time?
+A. Line chart
+B. Card
+C. Donut chart
+D. Table only  
+Section C: Data Import and Transformation
+Q21. Which Power BI feature allows you to connect to an Excel workbook?
+A. Get Data
+B. Publish
+C. Manage Roles
+D. Performance Analyzer  
+Q22. What is the primary purpose of Power Query?
+A. To create operating systems
+B. To connect to, clean, and transform data
+C. To design presentation slides
+D. To write HTML pages  
+Q23. You import a sales dataset into Power BI and discover that the Sales column contains text instead of numbers. What should you do?
+A. Delete the entire dataset
+B. Change the column's data type to an appropriate numeric type
+C. Convert every row into a separate table
+D. Create a dashboard immediately  
+Q24. Which file format is commonly used to store tabular data as plain text with values separated by commas?
+A. CSV
+B. EXE
+C. DLL
+D. MP3  
+Q25. What does the Close & Apply option do in Power BI Desktop's Power Query Editor?
+A. Closes Power BI permanently
+B. Applies query changes and loads the results into the data model
+C. Deletes all transformations
+D. Publishes a report to the Power BI Service  
+Q26. What is the purpose of removing duplicate rows in Power Query?
+A. To increase duplicate records
+B. To eliminate repeated records based on the selected columns
+C. To delete every row
+D. To change the report theme  
+Q27. Which transformation would you use to separate a full name into first name and last name?
+A. Split Column
+B. Group By only
+C. Merge Queries
+D. Replace Data Source  
+Q28. Which Power Query operation combines rows from two compatible tables by stacking one table beneath the other?
+A. Merge Queries
+B. Append Queries
+C. Group By
+D. Pivot Column  
+Q29. Which Power Query operation combines columns from related tables by matching values in key columns?
+A. Append Queries
+B. Merge Queries
+C. Remove Rows
+D. Unpivot Columns  
+Q30. What is the purpose of changing a column's data type to Date?
+A. To make the column suitable for date-related operations and analysis
+B. To turn dates into images
+C. To remove all rows
+D. To create a dashboard automatically  
+Section D: Data Modeling and Relationships
+Q31. What is a relationship in Power BI?
+A. A connection between tables based on related columns
+B. A connection between two report themes
+C. A visual formatting option
+D. A method of changing fonts  
+Q32. Consider two tables: Customers and Orders. Each customer can place multiple orders. What relationship is commonly appropriate?
+A. One-to-one
+B. One-to-many
+C. Many-to-one in both directions simultaneously
+D. No relationship is possible  
+Q33. In a typical one-to-many relationship, which side contains the unique key values?
+A. The many side
+B. The one side
+C. Both sides must contain duplicates
+D. Neither side  
+Q34. What is a primary key?
+A. A column that uniquely identifies each row in a table
+B. A column that must contain only text
+C. A column that always contains duplicate values
+D. A column used only for formatting  
+Q35. What is a foreign key used for?
+A. To format report backgrounds
+B. To reference a key in another table and establish a relationship
+C. To create charts automatically
+D. To remove missing values  
+Q36. What is a star schema?
+A. A data model with a central fact table connected to dimension tables
+B. A model containing only one table
+C. A chart containing star-shaped markers
+D. A report with multiple pages  
+Q37. In a sales data model, which table would most commonly be a fact table?
+A. Product Categories
+B. Customer Details
+C. Sales Transactions
+D. Calendar Labels  
+Q38. Which table would most commonly be a dimension table?
+A. Sales Transactions
+B. Order Line Transactions
+C. Customer Details
+D. Payment Transaction Details  
+Q39. Why are relationships important in Power BI?
+A. They allow related tables to work together during analysis
+B. They automatically correct all incorrect data
+C. They replace every DAX formula
+D. They eliminate the need for data sources  
+Q40. What can happen if a relationship is missing between two tables used in a report?
+A. The report always crashes
+B. Filters and calculations may not work as intended across those tables
+C. Power BI automatically deletes one table
+D. All values become zero  
+Section E: Basic DAX and Visualizations
+Q41. What does the following DAX measure calculate?
+Total Sales = SUM(Sales[SalesAmount])
+
+A. The number of sales rows
+B. The average sales amount
+C. The sum of the SalesAmount column
+D. The maximum sales amount  
+Q42. Which DAX function counts the number of rows in a table?
+A. SUM()
+B. COUNTROWS()
+C. AVERAGE()
+D. MAX()  
+Q43. Which DAX function calculates the arithmetic mean of a numeric column?
+A. SUM()
+B. COUNT()
+C. AVERAGE()
+D. DISTINCTCOUNT()  
+Q44. What does this DAX measure calculate?
+Total Orders = COUNTROWS(Orders)
+
+A. The number of rows in the Orders table under the current filter context
+B. The total value of all orders
+C. The average order value
+D. The number of columns in Orders  
+Q45. What is the primary difference between a measure and a calculated column?
+A. Measures are evaluated in filter context, while calculated columns are computed for individual rows during model processing or refresh
+B. Measures can only contain text
+C. Calculated columns can never contain numbers
+D. There is no difference  
+Q46. Which visual is most appropriate for displaying the percentage contribution of product categories to total sales?
+A. Donut chart
+B. Card
+C. Gauge
+D. Scatter chart  
+Q47. What is the purpose of a slicer in Power BI?
+A. To filter report data interactively
+B. To create database tables
+C. To write SQL queries automatically
+D. To delete report pages  
+Q48. Which Power BI feature allows a user to move from a summary report to a more detailed report page filtered for a selected entity?
+A. Drill-through
+B. Data refresh
+C. Append Queries
+D. Conditional column  
+Q49. What does a report filter do?
+A. Restricts the data displayed in report visuals according to specified conditions
+B. Deletes records from the original source database
+C. Changes the data source permanently
+D. Converts all numeric values into text  
+Q50. You create a Total Sales card and a Region slicer. When you select Mumbai, the card shows only Mumbai's sales. What does this demonstrate?
+A. Data encryption
+B. Interactive filtering and filter context
+C. Data duplication
+D. Query folding only  
+Answer Key: Level 1
+Try answering all 50 questions before checking the solutions.
+Q.	Answer	Explanation
+1	B	Power BI is a business intelligence and data visualization platform.
+2	C	Power BI is developed by Microsoft.
+3	B	It helps analyze data and create interactive reports.
+4	A	Power BI Desktop is the primary Windows application for creating reports.
+5	B	Power BI Desktop reports use the .pbix extension.
+6	A	Power BI Service supports online sharing, collaboration, and report consumption.
+7	C	BI stands for Business Intelligence.
+8	D	Power BI connects to Excel, SQL databases, CSV files, and many other sources.
+9	A	Power Query Editor is used to clean and transform data.
+10	B	DAX stands for Data Analysis Expressions.
+11	A	DAX is the calculation language used in Power BI's data model.
+12	B	Report View is used to build report pages and visuals.
+13	D	Data View displays the rows and columns of loaded tables.
+14	B	Model View helps manage table relationships and the data model.
+15	B	A dashboard is a single-page canvas in Power BI Service.
+16	A	Reports contain interactive visuals and can have multiple pages.
+17	B	Visuals represent data through charts, tables, cards, and other formats.
+18	A	A card displays a single important value or KPI.
+19	A	Bar charts are effective for comparing categories.
+20	A	Line charts are commonly used for trends over time.
+21	A	Get Data provides access to supported data sources.
+22	B	Power Query connects to, cleans, and transforms data.
+23	B	A suitable numeric data type allows correct numerical calculations.
+24	A	CSV means comma-separated values.
+25	B	Close & Apply applies transformations and loads the query results into the model.
+26	B	Remove Duplicates eliminates repeated records based on selected columns.
+27	A	Split Column separates values using a delimiter or another splitting rule.
+28	B	Append Queries stacks rows from multiple tables.
+29	B	Merge Queries joins tables using matching columns.
+30	A	A Date data type enables appropriate date operations and analysis.
+31	A	Relationships connect tables through related columns.
+32	B	One customer can be associated with multiple orders.
+33	B	The one side contains unique key values.
+34	A	A primary key uniquely identifies each row.
+35	B	A foreign key references a key in another table.
+36	A	A star schema has a central fact table connected to dimensions.
+37	C	Sales Transactions typically record measurable business events.
+38	C	Customer Details describes customers and their attributes.
+39	A	Relationships allow related tables to interact in analysis.
+40	B	Missing relationships can cause filters and calculations to behave unexpectedly.
+41	C	SUM adds the values in the specified column.
+42	B	COUNTROWS counts table rows under the current evaluation context.
+43	C	AVERAGE calculates the arithmetic mean of a numeric column.
+44	A	COUNTROWS counts rows in the Orders table under the current filter context.
+45	A	Measures respond dynamically to filter context; calculated columns store row-level results after computation.
+46	A	Donut charts can show category contributions, particularly when there are few categories.
+47	A	Slicers provide interactive filtering.
+48	A	Drill-through opens a detail page filtered for the selected entity when configured.
+49	A	Filters restrict which data appears in visuals or reports.
+50	B	The slicer changes the filter context, so the Total Sales measure recalculates for Mumbai.
+
+
+Your Score: Beginner Level
+Count your correct answers.
+Score	Assessment
+45–50	Excellent — strong beginner-level understanding
+38–44	Very good — revise a few concepts
+30–37	Good start — practice data modeling and Power Query
+20–29	Keep practising the fundamentals
+Below 20	Review the explanations and try again
+
+
+These score bands are a practice guide, not an official Power BI certification standard.
+What comes next?
+Level 2: Basic to Intermediate — Questions 51–100
+
+We'll cover:
+- Power Query transformations and applied steps
+- Import mode vs. DirectQuery
+- Data modeling and relationship cardinality
+- Cross-filter direction
+- Star schema vs. snowflake schema
+- Data types and handling null values
+- Basic filters and interactions
+- Power BI Service and scheduled refresh
+Your task: Attempt Level 1 and send your answers in this format:
+
+1.B, 2.C, 3.B, 4.A, 5.B ...
+
+I'll check your answers, calculate your score, explain the incorrect ones, and then we can continue to Level 2.
+
+
+
+
+
+
+
+
+
+
+Ad
+Ad options
+
+
+
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+next
+
+
+
+
+
+
+
+
+
+
+
+
+Power BI MCQs — Level 2: Basic to Intermediate
+Questions 51–100
+This level focuses on Power Query, data transformation, data modeling, relationships, filters, and Power BI connectivity. These topics are important for IT Vedant assessments and Data Analyst interviews.
+
+Instructions: Choose one correct answer from A, B, C, or D. The answer key is at the end.
+Section A: Power Query and Data Transformation
+Q51. What is the primary purpose of Power Query in Power BI?
+A. To create interactive dashboards only
+B. To connect to, clean, and transform data
+C. To create relationships only
+D. To publish reports only  
+Q52. What does the Applied Steps section in Power Query show?
+A. All charts created in a report
+B. The sequence of transformations applied to a query
+C. All DAX measures in the model
+D. All relationships between tables  
+Q53. You have a column containing full names, such as Siddhesh Chavan. You want to separate first name and last name. Which feature should you use?
+A. Group By
+B. Append Queries
+C. Split Column
+D. Pivot Column  
+Q54. Which Power Query operation removes repeated records?
+A. Remove Duplicates
+B. Replace Values
+C. Fill Down
+D. Transpose  
+Q55. You have blank cells in a column containing city names. Which transformation can replace null values with a specified value?
+A. Merge Queries
+B. Replace Values
+C. Append Queries
+D. Keep Rows  
+Q56. What does the Fill Down transformation do?
+A. Copies the value from the row above into selected empty cells below
+B. Sorts data in descending order
+C. Removes every blank row
+D. Converts columns into rows  
+Q57. Which Power Query feature groups records and calculates values such as total sales per region?
+A. Split Column
+B. Group By
+C. Remove Columns
+D. Use First Row as Headers  
+Q58. What happens when you use the Transpose transformation?
+A. Rows become columns, and columns become rows
+B. Duplicate records are removed
+C. Text is converted into numbers
+D. Data is sorted alphabetically  
+Q59. You have monthly sales data stored in separate columns named January, February, and March. You want the month names to become values in a single column. Which transformation is appropriate?
+A. Append Queries
+B. Merge Queries
+C. Unpivot Columns
+D. Fill Down  
+Q60. What is the purpose of the Use First Row as Headers option?
+A. To delete the first row
+B. To promote the first row's values to column names
+C. To create a primary key automatically
+D. To sort the table by its first column  
+Section B: Data Import and Connectivity
+Q61. What happens when you select Import mode while connecting Power BI to a database?
+A. Data is copied into the Power BI model and stored in the report's data model
+B. Power BI never stores data
+C. All queries run only in the original database whenever a visual changes
+D. The database is automatically deleted after importing  
+Q62. What is a key characteristic of DirectQuery?
+A. It always imports every row into the Power BI model
+B. It queries the underlying data source when data is needed, subject to caching and connector behavior
+C. It works only with Excel files
+D. It prevents users from creating visualizations  
+Q63. Which mode generally provides the greatest flexibility for complex transformations and in-memory analysis when the dataset fits available resources?
+A. Import
+B. DirectQuery
+C. Live connection only
+D. Manual entry only  
+Q64. Which Power BI feature allows a report to retrieve updated data from its source?
+A. Data refresh
+B. Drill-through
+C. Conditional formatting
+D. Bookmarks  
+Q65. What is the primary purpose of an on-premises data gateway?
+A. To create charts automatically
+B. To provide a secure bridge between supported Power BI cloud services and on-premises data sources
+C. To replace Power Query
+D. To convert all reports into Excel files  
+Q66. Which of the following is a common structured data source for Power BI?
+A. SQL Server
+B. A relational database
+C. An Excel workbook
+D. All of the above  
+Q67. What is query folding in Power Query?
+A. Combining report pages into one page
+B. Translating supported transformations into operations executed by the data source
+C. Compressing a PBIX file into a ZIP file
+D. Creating relationships automatically  
+Q68. Why is query folding beneficial?
+A. It can reduce the amount of data processed locally and improve performance
+B. It always eliminates the need for data refresh
+C. It automatically creates DAX measures
+D. It prevents database queries from running  
+Q69. What is a parameter in Power Query commonly used for?
+A. Storing or controlling a reusable input, such as a server name, file path, or date value
+B. Creating a chart title only
+C. Replacing every table relationship
+D. Formatting report backgrounds  
+Q70. Which language is primarily used in the Power Query Editor's advanced transformation logic?
+A. DAX
+B. M
+C. JavaScript
+D. HTML  
+Section C: Data Modeling and Relationships
+Q71. What is relationship cardinality in Power BI?
+A. The number of report pages
+B. The way records relate between tables, such as one-to-many or many-to-many
+C. The number of colors in a chart
+D. The number of DAX measures  
+Q72. A Customers table contains unique CustomerID values. An Orders table contains multiple orders for each customer. Which relationship is most appropriate?
+A. Customers (one) → Orders (many)
+B. Customers (many) → Orders (one)
+C. Customers (one) → Orders (one), regardless of the data
+D. No relationship is needed  
+Q73. What does a many-to-many relationship mean?
+A. Each table contains exactly one row
+B. A value can appear multiple times on both sides of the relationship
+C. Neither table can contain numeric columns
+D. The tables cannot be used in the same report  
+Q74. What is cross-filter direction?
+A. The direction in which filters propagate between related tables
+B. The direction in which a chart is displayed
+C. The order in which columns are sorted
+D. The direction in which a report is published  
+Q75. In a typical star schema, how do dimension tables relate to a central fact table?
+A. The fact table is normally on the one side
+B. Dimension tables are normally on the one side, and the fact table is on the many side
+C. All tables must have identical columns
+D. Dimension tables cannot filter fact tables  
+Q76. Which of the following is an example of a dimension attribute?
+A. Total Sales Amount
+B. Total Quantity Sold
+C. Customer City
+D. Total Profit  
+Q77. Which of the following is typically a measure stored in a fact table?
+A. Customer Name
+B. Product Category Name
+C. Sales Amount
+D. Region Name  
+Q78. Why is a dedicated Date table useful in Power BI?
+A. It eliminates the need for all relationships
+B. It supports consistent date filtering, calendar analysis, and time-intelligence calculations
+C. It automatically fixes incorrect sales amounts
+D. It prevents the use of DAX  
+Q79. What is a calculated column in Power BI?
+A. A value calculated for each row and stored in the data model
+B. A chart created from an image
+C. A column that exists only in the original Excel file
+D. A filter that cannot be removed  
+Q80. Which statement about a measure is correct?
+A. It must store a separate result permanently for every row
+B. It calculates a result according to the current evaluation context
+C. It can only return text
+D. It cannot be used in a visual  
+Section D: Filters, Slicers, and Visual Interactions
+Q81. Which filter type applies to an individual visual?
+A. Visual-level filter
+B. Page-level filter
+C. Report-level filter
+D. Data-source-level filter only  
+Q82. Which filter type applies to all applicable visuals on a particular report page?
+A. Visual-level filter
+B. Page-level filter
+C. Report-level filter
+D. Drill-through filter only  
+Q83. Which filter type can apply across all pages of a report?
+A. Visual-level filter only
+B. Page-level filter only
+C. Report-level filter
+D. A visual interaction setting  
+Q84. What is the main purpose of a slicer?
+A. To provide an interactive way to filter report data
+B. To create a database backup
+C. To change a column's data type
+D. To write Power Query M code automatically  
+Q85. What happens when you select a region in a slicer?
+A. The underlying source data is permanently deleted
+B. Applicable visuals are filtered according to the selection
+C. All relationships are removed
+D. Every DAX measure is deleted  
+Q86. What does Edit Interactions allow you to control?
+A. How one visual affects other visuals on the report page
+B. How data is stored on a hard drive
+C. How SQL tables are created
+D. How users log in to Windows  
+Q87. What is drill-down in a Power BI visual?
+A. Moving through levels of a hierarchy within a visual
+B. Opening Power Query Editor
+C. Deleting a report page
+D. Exporting a report to Excel  
+Q88. What is drill-through used for?
+A. Opening a detail page filtered for a selected data point or entity
+B. Converting text to numbers
+C. Creating a primary key
+D. Removing duplicate records  
+Q89. What is a tooltip in Power BI?
+A. Additional information displayed when a user hovers over a visual data point
+B. A database connection
+C. A type of relationship
+D. A data-cleaning step  
+Q90. What is the purpose of a bookmark?
+A. To capture a configured report view or state for later navigation or interaction
+B. To create a database table
+C. To replace the data model
+D. To refresh an Excel workbook automatically  
+Section E: Intermediate DAX and Business Scenarios
+Q91. What does this DAX measure calculate?
+Total Sales = SUM(Sales[SalesAmount])
+
+A. Average sales
+B. Total sales amount
+C. Number of customers
+D. Maximum sales  
+Q92. Which DAX function counts distinct values in a column?
+A. COUNTROWS()
+B. SUM()
+C. DISTINCTCOUNT()
+D. AVERAGE()  
+Q93. What does the CALCULATE function primarily do?
+A. Evaluates an expression in a modified filter context
+B. Creates a new database
+C. Removes all relationships permanently
+D. Converts a measure into a calculated column  
+Q94. What does the following measure calculate?
+Mumbai Sales =
+CALCULATE(
+    SUM(Sales[SalesAmount]),
+    Sales[City] = "Mumbai"
+)
+
+A. Sales from every city without exception
+B. Sales for Mumbai under the specified city filter, subject to the existing evaluation context
+C. The number of Mumbai customers
+D. Average sales for all cities  
+Q95. Which DAX function returns the largest value in a column?
+A. MIN()
+B. MAX()
+C. SUM()
+D. COUNT()  
+Q96. What is the purpose of the IF function in DAX?
+A. To evaluate a condition and return one result when true and another when false
+B. To create a relationship between tables
+C. To import Excel files
+D. To remove duplicate rows  
+Q97. Consider this DAX calculated column:
+Sales Category =
+IF(
+    Sales[SalesAmount] >= 1000,
+    "High",
+    "Low"
+)
+
+What will the column return for a row where SalesAmount is 1,500?
+
+A. Low
+B. High
+C. 1,500
+D. Blank  
+Q98. You want to calculate average order value using total sales and the number of distinct orders. Which measure is the most appropriate?
+A.
+Average Order Value =
+DIVIDE(
+    SUM(Sales[SalesAmount]),
+    DISTINCTCOUNT(Sales[OrderID])
+)
+
+B.
+Average Order Value =
+SUM(Sales[SalesAmount]) * DISTINCTCOUNT(Sales[OrderID])
+
+C.
+Average Order Value =
+MAX(Sales[SalesAmount])
+
+D.
+Average Order Value =
+COUNTROWS(Sales)
+
+Q99. Why is DIVIDE often preferred over the / operator in DAX calculations that might divide by zero?
+A. DIVIDE automatically creates relationships
+B. DIVIDE provides an optional alternate result when the denominator is zero or blank
+C. DIVIDE always returns a percentage
+D. DIVIDE removes duplicate rows  
+Q100. You have a Sales table and a Region table. You create a sales measure and add a Region slicer, but the sales value does not change when you select a region. What should you investigate first?
+A. The report theme
+B. Whether the Region table is correctly related to the Sales table and whether the filter can propagate through the model
+C. The font size of the slicer
+D. The dashboard background image  
+Answer Key: Level 2
+Q.	Answer	Explanation
+51	B	Power Query is used to connect to, clean, and transform data.
+52	B	Applied Steps records the sequence of query transformations.
+53	C	Split Column separates values using delimiters or other rules.
+54	A	Remove Duplicates removes repeated records based on the selected columns.
+55	B	Replace Values can replace nulls with a specified value.
+56	A	Fill Down propagates values from above into cells below, typically filling nulls.
+57	B	Group By aggregates records by selected columns.
+58	A	Transpose exchanges rows and columns.
+59	C	Unpivot converts selected columns into attribute-value rows.
+60	B	The first row becomes the column headers.
+61	A	Import stores a copy of the data in the Power BI model.
+62	B	DirectQuery queries the source when data is needed, with behavior affected by caching and the connector.
+63	A	Import often provides flexible, fast in-memory analysis when the data fits available resources.
+64	A	Refresh retrieves updated data from supported sources.
+65	B	A gateway bridges supported cloud services and on-premises data sources.
+66	D	All listed options can be used as data sources.
+67	B	Query folding pushes supported transformations back to the data source.
+68	A	Query folding can reduce local processing and improve efficiency.
+69	A	Parameters provide reusable inputs for queries and connections.
+70	B	Power Query uses the M language.
+71	B	Cardinality describes how records relate across tables.
+72	A	Each customer can have multiple orders.
+73	B	Many-to-many relationships allow repeated key values on both sides.
+74	A	Cross-filter direction determines how filters propagate between tables.
+75	B	Dimension tables normally filter a central fact table through one-to-many relationships.
+76	C	Customer City describes a customer and is a dimension attribute.
+77	C	Sales Amount is a numeric business measurement.
+78	B	A Date table supports calendar analysis and time-intelligence calculations.
+79	A	A calculated column stores a computed value for each row.
+80	B	Measures calculate results according to the current evaluation context.
+81	A	Visual-level filters apply to a specific visual.
+82	B	Page-level filters apply to applicable visuals on a page.
+83	C	Report-level filters apply across report pages.
+84	A	Slicers provide interactive filtering.
+85	B	Applicable visuals respond to the slicer selection.
+86	A	Edit Interactions controls how visuals affect one another.
+87	A	Drill-down moves through hierarchy levels within a visual.
+88	A	Drill-through navigates to a detail page filtered for a selected entity or data point.
+89	A	Tooltips display additional information when hovering over data points.
+90	A	Bookmarks capture configured report states for navigation and interaction.
+91	B	SUM calculates the total of a numeric column.
+92	C	DISTINCTCOUNT counts unique values in a column.
+93	A	CALCULATE evaluates an expression in a modified filter context.
+94	B	CALCULATE applies the specified Mumbai city filter while retaining other applicable context.
+95	B	MAX returns the largest value.
+96	A	IF evaluates a logical condition and returns the corresponding result.
+97	B	Since 1,500 is greater than or equal to 1,000, the result is High.
+98	A	DIVIDE calculates total sales divided by the distinct order count.
+99	B	DIVIDE supports an alternate result for a zero or blank denominator.
+100	B	Relationships and filter propagation determine whether the slicer affects the sales measure.
+
+
+Score Guide
+Correct Answers	Assessment
+45–50	Excellent intermediate foundation
+38–44	Very good; revise a few concepts
+30–37	Good progress; practise Power Query and relationships
+20–29	Revise the fundamentals before advancing
+Below 20	Revisit the explanations and attempt the questions again
+
+
+Next: Level 3 — Intermediate Power BI (Questions 101–150)
+The next level will focus on more practical Data Analyst concepts:
+1. DAX functions: CALCULATE, FILTER, ALL, ALLEXCEPT, SUMX, AVERAGEX
+2. Measures vs. calculated columns
+3. Row context vs. filter context
+4. Time intelligence: TOTALYTD, SAMEPERIODLASTYEAR, DATEADD
+5. KPI calculations: profit margin, growth percentage, average order value
+6. Data modeling and relationship troubleshooting
+7. Scenario-based Power BI interview questions
+Your task: Attempt Questions 51–100 and send your answers in the format:
+
+51.B, 52.B, 53.C, 54.A ...
+
+I'll evaluate your answers and explain any mistakes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+next
+
+
+
+
+
+
+
+
+
+
+
+
+Power BI MCQs — Level 3: Intermediate to Advanced
+Questions 101–150
+This level focuses on DAX functions, row context, filter context, measures, time intelligence, KPI calculations, and real-world business scenarios.
+
+These concepts are particularly important for Power BI practical assessments and Data Analyst interviews.
+Topics covered
+Section	Topic	Questions
+A	DAX Functions	101–110
+B	Measures, Columns & Context	111–120
+C	Advanced DAX Functions	121–130
+D	Time Intelligence & KPIs	131–140
+E	Business Scenarios & Troubleshooting	141–150
+
+
+Instructions: Select one correct answer for each question. The answer key is provided at the end.
+Section A: DAX Functions
+Q101. What is the primary purpose of the CALCULATE() function in DAX?
+A. To create a new table
+B. To evaluate an expression in a modified filter context
+C. To remove all columns from a table
+D. To import data from Excel  
+Q102. What does the SUMX() function do?
+A. Counts the number of rows in a table
+B. Calculates the average of a column
+C. Evaluates an expression for each row of a table and sums the results
+D. Returns the largest value in a column  
+Q103. Consider the following DAX expression:
+Total Sales = SUM(Sales[SalesAmount])
+
+If the SalesAmount values are 100, 200, 300, and 400, what is Total Sales?
+
+A. 250
+B. 400
+C. 1,000
+D. 4  
+Q104. What does the COUNTROWS() function return?
+A. The number of columns in a table
+B. The number of rows in a table
+C. The sum of numeric values
+D. The number of unique values in a column  
+Q105. Which DAX function counts unique values in a column?
+A. COUNTROWS()
+B. SUM()
+C. DISTINCTCOUNT()
+D. AVERAGE()  
+Q106. What is the primary purpose of the FILTER() function?
+A. To return a table containing rows that satisfy a specified condition
+B. To change the data type of a column
+C. To create a relationship between tables
+D. To remove a report page  
+Q107. What does the RELATED() function do?
+A. Calculates the average of a column
+B. Retrieves a related value from another table, typically by following an existing many-to-one relationship
+C. Removes duplicate rows
+D. Creates a new relationship automatically  
+Q108. What is the purpose of the IF() function in DAX?
+A. To evaluate a condition and return different results depending on whether it is true or false
+B. To combine two tables
+C. To count unique customers
+D. To refresh a dataset  
+Q109. Which DAX function returns the largest value in a column?
+A. MIN()
+B. MAX()
+C. SUM()
+D. COUNT()  
+Q110. What does the following measure calculate?
+Average Sales = AVERAGE(Sales[SalesAmount])
+
+A. Total sales
+B. Average value of SalesAmount across the rows visible in the current context
+C. Maximum sales
+D. Number of orders  
+Section B: Measures, Calculated Columns & Evaluation Context
+Q111. What is the main difference between a measure and a calculated column?
+A. A measure is evaluated according to the current context, while a calculated column computes a value for each row and stores it in the model
+B. A measure can only contain text
+C. A calculated column cannot contain numbers
+D. Both are always calculated in exactly the same way  
+Q112. When is a calculated column generally more appropriate than a measure?
+A. When you need a row-level category that can be used in slicers or grouping
+B. When you want every KPI to recalculate dynamically
+C. When you need to replace all relationships
+D. When you want to refresh the source database  
+Q113. What is row context in DAX?
+A. The context in which a calculation evaluates the current row
+B. The context in which a report page is displayed
+C. The order in which visuals load
+D. The process of importing rows into Power BI  
+Q114. What is filter context?
+A. The filters affecting the rows considered by a calculation
+B. The order of columns in Power Query
+C. The formatting applied to a chart
+D. The number of tables in a model  
+Q115. Consider this calculated column:
+Profit = Sales[SalesAmount] - Sales[Cost]
+
+If SalesAmount is 800 and Cost is 500, what is Profit for that row?
+
+A. 300
+B. 500
+C. 800
+D. 1,300  
+Q116. What is context transition in DAX?
+A. The conversion of row context into filter context, commonly performed by CALCULATE()
+B. The conversion of text into numbers
+C. The conversion of a report into a dashboard
+D. The conversion of Import mode into DirectQuery  
+Q117. Which DAX function can remove filters from a table or column when used appropriately in a calculation?
+A. SUM()
+B. ALL()
+C. MAX()
+D. COUNTROWS()  
+Q118. What is the primary purpose of ALLEXCEPT()?
+A. To remove all filters from a model permanently
+B. To remove filters from a specified table except for filters on specified columns
+C. To calculate the average of all numeric columns
+D. To create a relationship between two tables  
+Q119. Consider the following measure:
+Total Sales = SUM(Sales[SalesAmount])
+
+A report contains a Region slicer. What generally happens when a user selects Mumbai?
+
+A. The measure can calculate sales for Mumbai under the resulting filter context
+B. The measure always ignores the slicer
+C. The measure permanently deletes other regions
+D. The measure changes the data type of SalesAmount  
+Q120. Which function is commonly used to iterate through a table and evaluate an expression for each row before aggregating the results?
+A. SUMX()
+B. DISTINCTCOUNT()
+C. RELATED()
+D. FORMAT()  
+Section C: Advanced DAX Functions
+Q121. What does the following measure calculate?
+Total Profit =
+SUMX(
+    Sales,
+    Sales[SalesAmount] - Sales[Cost]
+)
+
+A. The sum of sales amounts only
+B. The sum of row-level differences between sales amount and cost
+C. The average cost
+D. The number of sales records  
+Q122. What is the purpose of DIVIDE() in DAX?
+A. To divide a table into multiple tables
+B. To perform division with optional handling for a zero or blank denominator
+C. To remove duplicate values
+D. To calculate the maximum value  
+Q123. What does the following measure calculate?
+Profit Margin =
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
+
+A. Total profit plus total sales
+B. Total sales divided by total profit
+C. Total profit divided by total sales, returning 0 when the denominator is zero or blank
+D. Total profit multiplied by total sales  
+Q124. What is the purpose of the VAR keyword in DAX?
+A. To define a variable that can store an intermediate result within a DAX expression
+B. To create a new database
+C. To remove report filters
+D. To create a relationship automatically  
+Q125. What does the following measure return?
+Sales Status =
+VAR Amount = [Total Sales]
+RETURN
+    IF(Amount >= 100000, "High", "Low")
+
+Assume Total Sales equals 150,000.
+
+A. Low
+B. High
+C. 150,000
+D. Blank  
+Q126. Which function is commonly used to iterate over a table and calculate an average of an expression evaluated for each row?
+A. AVERAGEX()
+B. SUM()
+C. COUNT()
+D. MAX()  
+Q127. What does SELECTEDVALUE() typically return when exactly one distinct value is present in the current context?
+A. The selected value
+B. The sum of all values
+C. The number of rows
+D. The maximum value regardless of selection  
+Q128. What does the following measure calculate?
+Sales Without Product Filter =
+CALCULATE(
+    [Total Sales],
+    REMOVEFILTERS(Products)
+)
+
+A. Sales only for the selected product
+B. Sales evaluated without filters from the Products table, subject to other applicable filters
+C. Total number of products
+D. Average sales per product  
+Q129. Which statement about ALL() and REMOVEFILTERS() is correct?
+A. Both can be used to remove filters in appropriate DAX calculations; ALL() can also return a table
+B. Neither can remove filters
+C. Both are used only to count rows
+D. Both create relationships automatically  
+Q130. What is the primary purpose of the SWITCH() function?
+A. To evaluate an expression against multiple cases and return a corresponding result
+B. To import a CSV file
+C. To create a relationship between two tables
+D. To change a table into a chart  
+Section D: Time Intelligence & KPI Calculations
+Note: These questions assume an appropriate Date table and valid relationships where required.
+Q131. Which DAX function is commonly used to calculate year-to-date totals?
+A. TOTALYTD()
+B. DISTINCTCOUNT()
+C. RELATED()
+D. COUNTROWS()  
+Q132. What does SAMEPERIODLASTYEAR() return?
+A. The same period shifted to the previous year
+B. The same period shifted to the next year
+C. The entire previous decade
+D. The current month's total only  
+Q133. What is the purpose of DATEADD() in DAX?
+A. To shift the dates in the current context by a specified interval
+B. To add a new column to a table
+C. To add two sales amounts
+D. To create a relationship  
+Q134. Which measure correctly calculates sales growth compared with the previous year?
+A.
+Growth =
+[Total Sales] + [Sales Last Year]
+
+B.
+Growth % =
+DIVIDE(
+    [Total Sales] - [Sales Last Year],
+    [Sales Last Year]
+)
+
+C.
+Growth =
+MAX(Sales[SalesAmount])
+
+D.
+Growth =
+COUNTROWS(Sales)
+
+Q135. Last year's sales were ₹80,000, and this year's sales are ₹100,000. What is the year-over-year growth percentage?
+A. 20%
+B. 25%
+C. 80%
+D. 125%  
+Q136. Which DAX function is designed to calculate a cumulative year-to-date total?
+A. TOTALYTD()
+B. DISTINCTCOUNT()
+C. SELECTEDVALUE()
+D. RELATED()  
+Q137. What is the purpose of PREVIOUSMONTH()?
+A. To return a date table representing the previous month relative to the current date context
+B. To calculate the previous year's profit margin automatically
+C. To create a month column in Power Query
+D. To delete the current month's data  
+Q138. A company wants to track sales performance over time. Which combination is generally most appropriate?
+A. A Date table, a relationship to the sales date, and suitable time-intelligence measures
+B. A card visual without a date field
+C. A table containing only customer names
+D. A pie chart containing only product IDs  
+Q139. What is the main purpose of a KPI visual?
+A. To display performance against a target, often with a trend or status indicator
+B. To remove duplicates from data
+C. To create relationships
+D. To replace every report page  
+Q140. A business wants to calculate average order value. Which formula is most appropriate?
+A. Total Sales × Total Orders
+B. Total Sales ÷ Number of Distinct Orders
+C. Total Orders ÷ Total Sales
+D. Total Profit + Total Sales  
+Section E: Business Scenarios & Troubleshooting
+Q141. A report contains sales data for several regions. Management wants to compare each region's contribution to total sales. Which visual is generally a strong choice?
+A. Bar chart
+B. Text box only
+C. Card containing the company name
+D. Image visual  
+Q142. A sales manager wants to see how monthly revenue changes throughout the year. Which visual is most suitable?
+A. Line chart
+B. Donut chart
+C. Card
+D. Gauge  
+Q143. A Power BI report becomes slow when users interact with several visuals. Which action is a sensible first step?
+A. Add more visuals to the page
+B. Use Performance Analyzer to identify slow visuals and queries
+C. Increase the number of unnecessary calculated columns
+D. Duplicate every table  
+Q144. You want to restrict each regional manager so that they see only the sales records for their assigned region. Which feature is designed for this purpose?
+A. Row-level security (RLS)
+B. Conditional formatting
+C. Drill-down
+D. Bookmarks  
+Q145. What is dynamic row-level security?
+A. A security approach that filters data according to the identity or attributes of the signed-in user
+B. A method for changing chart colors
+C. A way to sort rows alphabetically
+D. A tool for removing duplicate data  
+Q146. A report shows unexpected totals after you connect two tables. What should you investigate?
+A. Relationships, filter propagation, table granularity, and possible duplicate matches
+B. Only the report background
+C. Only the font size
+D. The Windows desktop wallpaper  
+Q147. You need to show a detailed list of orders when a user selects a particular restaurant on a summary page. Which feature is most appropriate?
+A. Drill-through
+B. Data categorization
+C. Query folding
+D. Remove Duplicates  
+Q148. You need to display sales by year, quarter, month, and day, allowing users to navigate between levels. What should you create?
+A. A date hierarchy
+B. A text box
+C. A single KPI card
+D. A gateway  
+Q149. You publish a Power BI report connected to an on-premises SQL Server database. The report needs to refresh in the Power BI Service. What may be required?
+A. An appropriately configured and online data gateway, along with valid credentials and refresh settings
+B. A donut chart
+C. A calculated column containing today's date
+D. A bookmark  
+Q150. You have built a Power BI report containing sales KPIs, regional performance, monthly trends, and product analysis. What is the most appropriate next step before presenting it to management?
+A. Publish it immediately without testing
+B. Validate the calculations, verify filters and relationships, check report usability, and confirm refresh behavior
+C. Delete the source data
+D. Remove all KPI cards  
+Answer Key: Level 3
+Try all 50 questions before checking your answers.
+Q.	Answer	Explanation
+101	B	CALCULATE evaluates an expression in a modified filter context.
+102	C	SUMX evaluates an expression row by row and sums the results.
+103	C	100 + 200 + 300 + 400 = 1,000.
+104	B	COUNTROWS returns the number of rows in a table.
+105	C	DISTINCTCOUNT counts unique column values.
+106	A	FILTER returns a table containing rows that satisfy a condition.
+107	B	RELATED retrieves a value through an existing relationship.
+108	A	IF returns results based on a logical condition.
+109	B	MAX returns the largest value.
+110	B	AVERAGE calculates the mean within the current context.
+111	A	Measures are context-sensitive calculations; calculated columns store row-level results.
+112	A	Calculated columns are useful for row-level categories and grouping.
+113	A	Row context identifies the current row being evaluated.
+114	A	Filter context determines which data a calculation considers.
+115	A	800 − 500 = 300.
+116	A	CALCULATE can transition row context into filter context.
+117	B	ALL can remove filters and can also return a table.
+118	B	ALLEXCEPT removes filters except those on specified columns of the table.
+119	A	The measure responds to the filter context created by the slicer.
+120	A	SUMX iterates through a table and sums an expression.
+121	B	SUMX adds the row-level differences between sales and cost.
+122	B	DIVIDE handles division and supports an alternate result for a zero or blank denominator.
+123	C	Profit margin is profit divided by sales.
+124	A	VAR defines an intermediate variable in a DAX expression.
+125	B	150,000 is greater than 100,000, so the result is High.
+126	A	AVERAGEX evaluates an expression for each row and averages the results.
+127	A	SELECTEDVALUE returns the single distinct value when one is present.
+128	B	REMOVEFILTERS removes the Products table's filters from the calculation.
+129	A	ALL can return a table and remove filters; REMOVEFILTERS is specifically intended to clear filters.
+130	A	SWITCH evaluates cases and returns the corresponding result.
+131	A	TOTALYTD calculates a year-to-date value.
+132	A	SAMEPERIODLASTYEAR shifts the selected date period back one year.
+133	A	DATEADD shifts dates by a specified interval.
+134	B	Growth percentage is the sales difference divided by last year's sales.
+135	B	(100,000 − 80,000) ÷ 80,000 × 100 = 25%.
+136	A	TOTALYTD is designed for year-to-date calculations.
+137	A	PREVIOUSMONTH returns the previous month's dates relative to the current context.
+138	A	A Date table and suitable relationships support time-based analysis.
+139	A	KPI visuals communicate performance against a target, often with trend information.
+140	B	Average order value equals total sales divided by distinct orders.
+141	A	Bar charts effectively compare regional sales and contributions.
+142	A	Line charts are well suited to monthly trends.
+143	B	Performance Analyzer helps identify slow visuals and queries.
+144	A	RLS restricts which rows users can access.
+145	A	Dynamic RLS applies security filters based on user identity or attributes.
+146	A	Relationship and granularity issues can produce unexpected totals.
+147	A	Drill-through opens a detail page filtered for the selected restaurant.
+148	A	A date hierarchy enables navigation through date levels.
+149	A	On-premises sources commonly require a configured gateway and valid refresh settings.
+150	B	Validation helps ensure accurate calculations, reliable filtering, and a usable report.
+
+
+Score Guide
+Correct Answers	Assessment
+45–50	Excellent — strong intermediate DAX knowledge
+38–44	Very good — review a few advanced concepts
+30–37	Good — practise DAX and context more
+20–29	Revise DAX functions and time intelligence
+Below 20	Review the explanations before advancing
+
+
+Next: Level 4 — Advanced Power BI MCQs (Questions 151–200)
+The next level will cover:
+1. Advanced DAX: CALCULATE, FILTER, ALL, KEEPFILTERS, and TREATAS
+2. Row context, filter context, and context transition
+3. Advanced time intelligence and period comparisons
+4. Ranking and running totals
+5. Complex relationships and virtual tables
+6. Performance optimization and DAX troubleshooting
+7. Advanced business scenarios and interview questions
+Your turn: Try Questions 101–150. You can send all 50 answers together or send them in batches of 10, and I'll evaluate them before you continue.
+
+
+
+
+
+
+
+
+This might also interest you.
+
+
+Ad
+Ad options
+
+
+
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+next
+
+
+
+
+
+
+
+
+
+
+
+
+Power BI MCQs — Level 4: Advanced
+Questions 151–200
+This level focuses on advanced DAX, complex calculations, time intelligence, ranking, performance optimization, security, and real-world business scenarios.
+
+These questions are designed to strengthen your preparation for Data Analyst interviews, Power BI assessments, and practical dashboard development.
+Topics covered
+Section	Topic	Questions
+A	Advanced DAX Functions	151–160
+B	Filter Context & Virtual Tables	161–170
+C	Time Intelligence & Advanced Calculations	171–180
+D	Performance Optimization & Security	181–190
+E	Advanced Business Scenarios	191–200
+
+
+Instructions: Choose one correct answer for each question. The answer key is provided at the end.
+Section A: Advanced DAX Functions
+Q151. What is the primary purpose of KEEPFILTERS() in DAX?
+A. To permanently lock report filters
+B. To make specified filters intersect with existing filters rather than simply replacing filters on the same columns
+C. To remove every filter from a table
+D. To create a relationship between tables  
+Q152. What is the primary purpose of REMOVEFILTERS()?
+A. To remove filters from specified tables or columns within a calculation
+B. To delete rows from the original database
+C. To remove all columns from a table
+D. To delete relationships permanently  
+Q153. Which DAX function allows you to apply values from one table or expression as filters to another table, without requiring a direct relationship between the tables?
+A. RELATED()
+B. TREATAS()
+C. COUNTROWS()
+D. AVERAGE()  
+Q154. What does the following measure calculate?
+High Value Sales =
+CALCULATE(
+    [Total Sales],
+    FILTER(
+        Sales,
+        Sales[SalesAmount] > 1000
+    )
+)
+
+A. Sales where the amount is exactly 1,000
+B. Sales for rows satisfying the condition SalesAmount > 1,000, subject to the existing filter context
+C. Average sales for every product
+D. Total number of sales rows  
+Q155. Which DAX function returns a table containing distinct combinations of values from specified columns?
+A. SUM()
+B. SUMX()
+C. SUMMARIZE()
+D. MAX()  
+Q156. What is the purpose of ADDCOLUMNS()?
+A. To add calculated columns to a table expression
+B. To permanently add columns to the original SQL database
+C. To remove duplicate values from a column
+D. To create a dashboard  
+Q157. What does RANKX() do?
+A. Calculates the average of a table
+B. Ranks items according to an expression
+C. Deletes rows based on a condition
+D. Converts text to numbers  
+Q158. Consider the following measure:
+Product Rank =
+RANKX(
+    ALL(Products[ProductName]),
+    [Total Sales],
+    ,
+    DESC
+)
+
+What does this measure generally do?
+
+A. Ranks products from highest to lowest sales across the product names included by the ALL expression
+B. Ranks products alphabetically
+C. Counts the number of products
+D. Calculates average product prices  
+Q159. What is the primary purpose of ISINSCOPE()?
+A. To determine whether a column is being used as a grouping level in the current visual evaluation context
+B. To determine whether a database is online
+C. To count rows in a table
+D. To remove filters from a report  
+Q160. Which DAX function is useful for returning the first nonblank expression from a sequence of expressions?
+A. COALESCE()
+B. RANKX()
+C. ALL()
+D. SUMX()  
+Section B: Filter Context & Virtual Tables
+Q161. What is a virtual table in DAX?
+A. A table expression created and used during a calculation without necessarily being stored as a physical model table
+B. A physical table that must be stored in SQL Server
+C. A table that cannot contain rows
+D. A table created only in Excel  
+Q162. What does the following expression calculate?
+Sales for All Regions =
+CALCULATE(
+    [Total Sales],
+    REMOVEFILTERS(Regions)
+)
+
+A. Sales for only the selected region
+B. Sales without filters from the Regions table, while retaining other applicable filters
+C. Average sales for each region
+D. Number of regions  
+Q163. What is the difference between ALL() and ALLSELECTED() in a typical visual-total calculation?
+A. ALLSELECTED can preserve external selections while removing relevant visual-level grouping filters; ALL removes filters from its specified table or columns
+B. Both always produce exactly the same result
+C. ALLSELECTED deletes rows from the source
+D. ALL can only count rows  
+Q164. What does the following measure attempt to calculate?
+Sales % of Total =
+DIVIDE(
+    [Total Sales],
+    CALCULATE(
+        [Total Sales],
+        REMOVEFILTERS(Products)
+    )
+)
+
+A. Sales as a percentage of total sales across products, while retaining other applicable filters
+B. Total profit divided by sales
+C. Average sales per customer
+D. The number of products sold  
+Q165. What is the purpose of CROSSJOIN() in DAX?
+A. To create all possible combinations of rows from the input tables
+B. To remove duplicate rows from a single table
+C. To calculate the sum of two columns
+D. To create a relationship automatically  
+Q166. What does UNION() do in DAX?
+A. Combines rows from two or more table expressions into one table expression
+B. Combines two columns by matching keys
+C. Removes every duplicate row from the source model
+D. Creates a one-to-many relationship  
+Q167. What is the purpose of INTERSECT() in DAX?
+A. To return rows common to two table expressions
+B. To return all rows from both tables without regard to overlap
+C. To multiply values from two tables
+D. To sort a table alphabetically  
+Q168. What does EXCEPT() return when used with two table expressions?
+A. Rows in the first table expression that do not appear in the second
+B. Rows common to both expressions
+C. Every row from both expressions
+D. The sum of both tables  
+Q169. Why might TREATAS() be useful in a Power BI model?
+A. It can apply values from one table expression as filters to specified columns in another table
+B. It automatically creates a permanent relationship in Model View
+C. It replaces all calculated columns
+D. It refreshes the Power BI Service dataset  
+Q170. A measure produces different results when placed in a matrix versus a card. What is the most likely explanation?
+A. Measures can return different results under different filter contexts
+B. Cards cannot display measures
+C. Matrix visuals permanently change source data
+D. DAX measures always return the same result in every context  
+Section C: Time Intelligence & Advanced Calculations
+Assume the model contains an appropriate Date table with a valid relationship to the sales data.
+Q171. What is the purpose of DATESYTD()?
+A. To return the dates from the beginning of the year through the current date context
+B. To return only dates from the previous year
+C. To create a new Date table automatically
+D. To count unique years  
+Q172. Which function is commonly used to compare sales with the same period in the previous year?
+A. SAMEPERIODLASTYEAR()
+B. DISTINCTCOUNT()
+C. RELATED()
+D. RANKX()  
+Q173. What does this measure calculate?
+Previous Year Sales =
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR('Date'[Date])
+)
+
+A. Sales for the same selected date period in the previous year
+B. Sales for the next year
+C. Total sales across all years, ignoring dates
+D. Average monthly sales  
+Q174. A company had sales of ₹200,000 last year and ₹250,000 this year. What is the year-over-year growth rate?
+A. 20%
+B. 25%
+C. 50%
+D. 125%  
+Q175. What is a running total?
+A. A cumulative sum that accumulates values across an ordered sequence, such as dates
+B. A total that resets after every row without a pattern
+C. An average of all values
+D. A count of unique dates  
+Q176. Which DAX function is commonly used to generate a sequence of dates between two boundaries?
+A. CALENDAR()
+B. RANKX()
+C. RELATED()
+D. COUNTROWS()  
+Q177. What is the primary purpose of EOMONTH()?
+A. To return the last day of a month offset by a specified number of months
+B. To calculate the total sales at the end of a month
+C. To create a monthly relationship
+D. To count months in a table  
+Q178. Which approach is appropriate for calculating a three-month moving average?
+A. Average the current month's sales and the preceding two months, using a suitable date window and correct date context
+B. Divide total sales by the number of products
+C. Calculate the maximum sales amount
+D. Count the number of customers  
+Q179. What is the primary purpose of DATEADD() in a time-intelligence calculation?
+A. To shift a date set forward or backward by a specified interval
+B. To add a new column to the source database
+C. To calculate profit margin automatically
+D. To remove duplicate dates  
+Q180. A business wants to compare year-to-date sales with the previous year's year-to-date sales. What is the most appropriate approach?
+A. Compare the current YTD measure with a corresponding prior-year YTD measure using a suitable Date table
+B. Compare the current month's sales with the total number of products
+C. Use only a pie chart
+D. Count the number of rows in the customer table  
+Section D: Performance Optimization & Security
+Q181. Which tool in Power BI Desktop helps identify the time taken by visuals and their associated queries?
+A. Performance Analyzer
+B. Power Query Fill Down
+C. Data Validation
+D. Conditional Formatting  
+Q182. Which practice can improve Power BI model performance?
+A. Import every unnecessary column
+B. Remove unused columns and reduce unnecessary data
+C. Create duplicate copies of every table
+D. Use complex calculated columns for every calculation  
+Q183. Why is a star schema often recommended for Power BI models?
+A. It can simplify relationships and improve the clarity of analytical queries
+B. It guarantees that every report will load instantly
+C. It eliminates the need for relationships
+D. It prevents all data-quality issues  
+Q184. What is the purpose of incremental refresh?
+A. To refresh only the data partitions that need updating rather than reprocessing the entire historical dataset each time, where supported
+B. To delete old records every time a report opens
+C. To refresh report formatting only
+D. To replace Power Query  
+Q185. What is row-level security (RLS)?
+A. A feature that restricts which rows of data users can access
+B. A feature that changes row heights in a table visual
+C. A method for sorting rows
+D. A way to remove duplicate records  
+Q186. What is object-level security (OLS) designed to restrict?
+A. Access to specific model objects, such as tables or columns
+B. Access to report themes only
+C. Access to a computer's desktop wallpaper
+D. Access to all internet connections  
+Q187. What is the purpose of a Power BI deployment pipeline?
+A. To support controlled promotion of content through development, test, and production stages
+B. To create DAX measures automatically
+C. To replace all database systems
+D. To convert every report into a PDF  
+Q188. What is the purpose of a semantic model in Power BI?
+A. To provide a structured model of data, relationships, calculations, and business definitions for analysis
+B. To store only report background images
+C. To replace every data source
+D. To create SQL server logins automatically  
+Q189. Which statement about Power BI Import mode is correct?
+A. Data is stored in the Power BI model and typically needs refreshing to retrieve source changes
+B. Data is never stored in the Power BI model
+C. Import mode cannot support DAX measures
+D. Import mode is only available for CSV files  
+Q190. Why should you avoid unnecessary bidirectional relationships in a Power BI model?
+A. They can introduce ambiguous filter paths and make results harder to understand or maintain
+B. They always delete data
+C. They prevent the creation of measures
+D. They disable all slicers  
+Section E: Advanced Business Scenarios
+Q191. Your company's Total Sales KPI displays the correct overall total but incorrect figures when broken down by product category. What should you investigate first?
+A. Relationships, filter propagation, the measure's logic, and the granularity of the underlying tables
+B. The report background color
+C. The title font
+D. The number of pages in the report  
+Q192. A company wants to identify its top five products by revenue. Which approach is most appropriate?
+A. Use a sales measure with a Top N filter or an appropriate ranking calculation
+B. Sort products alphabetically
+C. Use a card displaying the company name
+D. Remove the product table  
+Q193. You need to calculate the percentage of total sales contributed by each product category while keeping the selected year filter. What is a suitable approach?
+A. Divide category sales by sales calculated with the product-category filter removed while preserving the year filter
+B. Divide category sales by the number of report pages
+C. Remove every filter from the model
+D. Divide total profit by total customers  
+Q194. A report contains millions of sales records and is slow to load. Which action is a sensible optimization step?
+A. Inspect performance, remove unused columns, review model design, and optimize expensive calculations
+B. Add more calculated columns without checking performance
+C. Duplicate the sales table several times
+D. Add every available visual to one page  
+Q195. A regional manager should see only their region's data, but the report author should be able to analyze all regions. What is an appropriate approach?
+A. Configure appropriate RLS roles and permissions, and assign users correctly
+B. Hide the region slicer
+C. Use conditional formatting
+D. Change the chart type  
+Q196. You need to display actual sales against a sales target for each region. Which visual is a strong option?
+A. KPI or gauge visual, depending on the layout and comparison requirements
+B. A text box containing the report title
+C. A scatter chart without meaningful axes
+D. An image visual  
+Q197. Your report has a Month slicer, but months appear in alphabetical order. What is the best solution?
+A. Create or use a month-number column and sort the month-name column by it
+B. Delete the Month slicer
+C. Convert month names into random numbers
+D. Use a donut chart instead  
+Q198. A report needs to display sales for the current year, previous year, and year-over-year percentage change. What is the most appropriate solution?
+A. Create appropriate DAX measures using the Date table and previous-year calculations
+B. Create three unrelated text boxes
+C. Remove the Date table
+D. Use only the maximum sales value  
+Q199. After publishing a report, the data does not update as expected. What should you check?
+A. Data-source credentials, gateway configuration where required, refresh history, and refresh settings
+B. Chart colors only
+C. The number of bookmarks
+D. The report title  
+Q200. Before delivering an advanced Power BI dashboard to management, what should you do?
+A. Validate KPIs, test filters and security, verify refresh behavior, and review performance and usability
+B. Publish without checking calculations
+C. Remove the data model
+D. Disable every report interaction  
+Answer Key: Level 4
+Q.	Answer	Explanation
+151	B	KEEPFILTERS makes specified filters intersect with existing filters rather than simply replacing filters on the same columns.
+152	A	REMOVEFILTERS clears specified filters within a calculation.
+153	B	TREATAS applies values from a table expression as filters to specified columns.
+154	B	FILTER returns qualifying sales rows, and CALCULATE evaluates the measure under the resulting filter context.
+155	C	SUMMARIZE returns a table grouped by specified columns, with optional expressions.
+156	A	ADDCOLUMNS adds calculated columns to a table expression.
+157	B	RANKX ranks items according to an expression.
+158	A	ALL removes filters from the specified ProductName column for the ranking calculation.
+159	A	ISINSCOPE checks whether a column is a grouping level in the current evaluation context.
+160	A	COALESCE returns the first expression that is not blank.
+161	A	Virtual tables are table expressions evaluated during calculations.
+162	B	The measure removes filters from Regions while retaining other applicable filters.
+163	A	ALL removes specified filters; ALLSELECTED can retain external selections while removing relevant visual grouping filters.
+164	A	The denominator removes product filters to calculate a broader sales total.
+165	A	CROSSJOIN returns all combinations of rows from its input tables.
+166	A	UNION combines table expressions by stacking their rows.
+167	A	INTERSECT returns rows common to both table expressions.
+168	A	EXCEPT returns rows from the first expression that do not appear in the second.
+169	A	TREATAS applies values as filters without requiring a direct relationship.
+170	A	Visuals can create different filter contexts, producing different measure results.
+171	A	DATESYTD returns the year-to-date date set for the current context.
+172	A	SAMEPERIODLASTYEAR shifts the selected period back one year.
+173	A	The measure calculates sales for the corresponding period in the previous year.
+174	B	Growth = (250,000 − 200,000) ÷ 200,000 = 25%.
+175	A	A running total accumulates values over an ordered sequence.
+176	A	CALENDAR generates a contiguous date table between two specified dates.
+177	A	EOMONTH returns the last day of a month offset by a specified number of months.
+178	A	A three-month moving average averages values across a suitable three-month date window.
+179	A	DATEADD shifts dates by a specified interval.
+180	A	Comparing current and prior-year YTD measures provides a consistent year-to-date comparison.
+181	A	Performance Analyzer helps identify slow visuals and queries.
+182	B	Removing unused columns reduces model size and can improve performance.
+183	A	Star schemas simplify analytical relationships and are generally easier to understand.
+184	A	Incremental refresh processes relevant partitions instead of refreshing all historical data each time, where supported.
+185	A	RLS restricts access to rows based on role rules.
+186	A	OLS restricts access to specified tables or columns in the semantic model.
+187	A	Deployment pipelines help promote content through development, test, and production stages.
+188	A	A semantic model organizes data, relationships, measures, and business definitions.
+189	A	Import stores data in the model and normally requires refreshes to retrieve source changes.
+190	A	Bidirectional relationships can introduce ambiguous filter paths and complicate calculations.
+191	A	Incorrect relationships, granularity, or filter behavior can cause category-level discrepancies.
+192	A	Top N filters and ranking measures can identify the highest-revenue products.
+193	A	Removing product-category filters from the denominator while retaining year context allows category contribution to be calculated.
+194	A	Performance analysis, model simplification, and calculation optimization can improve responsiveness.
+195	A	Correct RLS configuration and user assignments enforce regional data access.
+196	A	KPI and gauge visuals can communicate actual performance against targets.
+197	A	Sorting month names by month numbers restores calendar order.
+198	A	Date-based DAX measures support current-year, prior-year, and growth calculations.
+199	A	Credentials, gateway configuration, and refresh settings are common causes of stale data.
+200	A	Validation ensures the dashboard is accurate, secure, responsive, and ready for use.
+
+
+Score Guide
+Score	Assessment
+45–50	Excellent — strong advanced foundation
+38–44	Very good — revise difficult DAX concepts
+30–37	Good — practise ranking, context, and time intelligence
+20–29	Review advanced DAX and data modeling
+Below 20	Revisit the explanations before moving to expert questions
+
+
+These score bands are for practice and are not official Microsoft certification thresholds.
+Next: Level 5 — Expert Power BI MCQs (Questions 201–250)
+The final level will cover:
+1. Complex DAX and context transition
+2. Advanced ranking and virtual-table calculations
+3. Calculation groups and reusable time-intelligence patterns
+4. Composite models and storage modes
+5. DirectQuery and performance troubleshooting
+6. Advanced row-level and object-level security
+7. Deployment, refresh architecture, and governance
+8. Complex business scenarios and Data Analyst interview questions
+Your next step: Attempt Questions 151–200. You can send your answers in batches of 10, or simply type "next" to continue to Level 5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+next
+
+
+
+
+
+
+
+
+
+
+
+
+Power BI MCQs — Level 5: Expert
+Questions 201–250
+Welcome to the final level of our Power BI MCQ series!
+
+This level focuses on expert-level DAX, complex data modeling, composite models, performance optimization, security, deployment, and real-world business scenarios.
+
+These questions are designed to help you prepare for Data Analyst interviews, advanced Power BI assessments, and professional dashboard development.
+Topics Covered
+Section	Topic	Questions
+A	Expert DAX & Context Transition	201–210
+B	Advanced Data Modeling & Storage Modes	211–220
+C	Performance Optimization	221–230
+D	Security, Deployment & Governance	231–240
+E	Expert Business Scenarios	241–250
+
+
+Instructions: Choose the single best answer for each question. The answer key is provided at the end.
+Section A: Expert DAX & Context Transition
+Q201. What is context transition in DAX?
+A. Converting a calculated column into a measure
+B. Converting row context into filter context, commonly through CALCULATE()
+C. Converting Import mode into DirectQuery
+D. Converting a table into a chart  
+Q202. What does the following measure calculate?
+Total Sales =
+SUM(Sales[SalesAmount])
+
+A. The total sales amount under the current evaluation context
+B. The maximum sales amount
+C. The number of sales transactions
+D. The average sales amount  
+Q203. What is the primary difference between SUM() and SUMX()?
+A. SUM calculates an average, while SUMX calculates a maximum
+B. SUM adds a numeric column, while SUMX evaluates an expression row by row and sums the results
+C. SUM counts rows, while SUMX counts distinct values
+D. There is no difference  
+Q204. Consider the following DAX measure:
+Total Revenue =
+SUMX(
+    Sales,
+    Sales[Quantity] * Sales[UnitPrice]
+)
+
+If a transaction has Quantity = 4 and UnitPrice = ₹250, what is its revenue contribution?
+
+A. ₹250
+B. ₹500
+C. ₹1,000
+D. ₹4,250  
+Q205. What is the purpose of CALCULATETABLE()?
+A. To return a table expression evaluated under a modified filter context
+B. To create a report page
+C. To permanently modify the source database
+D. To format a table visual  
+Q206. What does the following expression generally return?
+CALCULATE(
+    [Total Sales],
+    REMOVEFILTERS(Products[Category])
+)
+
+A. Sales for only the selected category
+B. Sales with the Category filter removed, while retaining other applicable filters
+C. The number of categories
+D. Average sales for the selected category only  
+Q207. Which DAX function is designed to return the value of an expression evaluated at the current visual hierarchy level?
+A. ISINSCOPE()
+B. SUM()
+C. COUNTROWS()
+D. DISTINCTCOUNT()  
+Q208. What is the primary purpose of NONVISUAL() in supported DAX query expressions?
+A. To mark a filter in a query so that it affects group-by rows without directly filtering measure calculations
+B. To hide a visual from report users
+C. To remove all filters from a semantic model
+D. To create a relationship between tables  
+Q209. What does USERELATIONSHIP() do?
+A. Creates a permanent relationship automatically
+B. Activates an existing inactive relationship for the duration of a calculation
+C. Deletes an active relationship
+D. Changes a many-to-many relationship into one-to-one  
+Q210. A Sales table contains OrderDate and ShipDate, both related to the same Date table. The relationship using OrderDate is active, while the ShipDate relationship is inactive. Which function can a measure use to calculate sales by shipping date?
+A. USERELATIONSHIP()
+B. DISTINCTCOUNT()
+C. REMOVEFILTERS() only
+D. FORMAT()  
+Section B: Advanced Data Modeling & Storage Modes
+Q211. What is a composite model in Power BI?
+A. A model that combines supported storage modes or data-source arrangements, such as Import and DirectQuery
+B. A model that contains only one table
+C. A report containing multiple pages
+D. A model that uses only Excel files  
+Q212. What is a key characteristic of DirectQuery?
+A. All source data is always imported into the model
+B. Queries are sent to the underlying data source when needed, subject to caching and connector behavior
+C. It can only connect to CSV files
+D. It does not support report visuals  
+Q213. What is Dual storage mode designed to support?
+A. A table that can behave as Import or DirectQuery depending on the query and model requirements
+B. Two report themes at the same time
+C. Two copies of every measure
+D. Two dashboards with identical names  
+Q214. What is the purpose of an aggregation table in Power BI?
+A. To store summarized data that can answer suitable queries more efficiently
+B. To store report background images
+C. To replace every dimension table
+D. To prevent all data refreshes  
+Q215. What is a key advantage of a well-designed star schema?
+A. It simplifies analytical relationships and supports predictable filtering
+B. It removes the need for data quality checks
+C. It guarantees that every query runs instantly
+D. It prevents users from filtering reports  
+Q216. Why should a fact table generally have a clearly defined grain?
+A. To clarify what one row represents and avoid incorrect aggregation
+B. To make every column a primary key
+C. To eliminate the need for dimensions
+D. To prevent the use of measures  
+Q217. What is a role-playing dimension?
+A. A dimension table used for different analytical purposes, such as Order Date and Ship Date
+B. A table containing user passwords
+C. A table used only for report formatting
+D. A table that cannot have relationships  
+Q218. What is the purpose of a bridge table?
+A. To help model relationships between entities, particularly many-to-many relationships
+B. To store chart colors
+C. To replace all fact tables
+D. To refresh Power BI automatically  
+Q219. What is a common challenge with bidirectional relationships?
+A. They can create ambiguous filter paths and unexpected filtering behavior
+B. They always prevent DAX calculations
+C. They automatically delete duplicate records
+D. They prevent the use of slicers  
+Q220. Which approach is generally appropriate when designing a large analytical model?
+A. Define fact-table grain, use suitable dimensions, minimize unnecessary columns, and choose storage modes based on requirements
+B. Import every available column without reviewing its usefulness
+C. Create bidirectional relationships between every table
+D. Store all data in a single unstructured text column  
+Section C: Performance Optimization
+Q221. Which tool can help identify slow visuals and query execution times in Power BI Desktop?
+A. Performance Analyzer
+B. Power Query Replace Values
+C. Bookmarks
+D. Conditional Formatting  
+Q222. What is VertiPaq?
+A. The in-memory analytical storage engine used by Power BI's tabular model for imported data
+B. A report publishing website
+C. A Power Query transformation
+D. A chart formatting feature  
+Q223. Which action can help reduce the memory footprint of an imported Power BI model?
+A. Removing unused columns and reducing unnecessary high-cardinality data where appropriate
+B. Importing additional duplicate columns
+C. Creating unnecessary calculated tables
+D. Adding more text columns without reviewing their purpose  
+Q224. Why can high-cardinality columns increase model size?
+A. They often require more distinct values to be represented and compressed
+B. They always contain fewer values than low-cardinality columns
+C. They cannot be imported into Power BI
+D. They automatically disable relationships  
+Q225. What is query folding?
+A. Translating supported Power Query transformations into operations executed by the source system
+B. Combining several dashboard pages
+C. Compressing a report into a PDF
+D. Creating calculated columns automatically  
+Q226. Why is query folding often beneficial?
+A. It can push supported transformations to the data source and reduce local processing
+B. It prevents every query from reaching the source
+C. It eliminates the need for relationships
+D. It automatically creates all DAX measures  
+Q227. What is a potential performance problem with unnecessarily complex DAX measures?
+A. They may require expensive calculations and slow visual queries
+B. They always reduce model size
+C. They automatically improve refresh speed
+D. They remove the need for a semantic model  
+Q228. Which approach is most appropriate when a DirectQuery report is slow?
+A. Investigate visual query timings, source query performance, data-source indexes, model design, and unnecessary visual interactions
+B. Add more visuals to every page
+C. Duplicate every source table
+D. Remove all filters from the report  
+Q229. What is incremental refresh primarily designed to improve?
+A. Refresh efficiency for large datasets by refreshing relevant partitions instead of all historical data each time, where supported
+B. Report font rendering
+C. Chart animations
+D. The number of pages in a report  
+Q230. What is a sensible way to investigate a slow DAX measure?
+A. Use performance tools, inspect the measure's logic and filter context, and simplify expensive operations where possible
+B. Change the report theme
+C. Delete the Date table without checking dependencies
+D. Add more calculated columns automatically  
+Section D: Security, Deployment & Governance
+Q231. What is row-level security (RLS)?
+A. A feature that restricts the rows of data users can access
+B. A feature that changes table row height
+C. A feature that sorts rows alphabetically
+D. A feature that removes duplicate data  
+Q232. What is object-level security (OLS)?
+A. Security that restricts access to specified model objects, such as tables or columns
+B. Security that changes report colors
+C. Security that restricts only the number of report pages
+D. Security that deletes inactive measures  
+Q233. What is dynamic RLS?
+A. Security rules that filter data based on the signed-in user's identity or attributes
+B. A way to animate charts
+C. A method for changing data types
+D. A method for creating relationships  
+Q234. Which DAX function can return the current user's identity in a Power BI model?
+A. USERPRINCIPALNAME()
+B. SUMX()
+C. RELATED()
+D. ALL()  
+Q235. What is the purpose of a deployment pipeline?
+A. To manage the movement of supported content through development, test, and production stages
+B. To calculate sales growth
+C. To create relationships automatically
+D. To replace a data gateway  
+Q236. What is the primary purpose of a Power BI gateway?
+A. To facilitate secure communication between supported Power BI cloud services and data sources that require gateway connectivity
+B. To create a report theme
+C. To calculate a moving average
+D. To replace the Power BI Service  
+Q237. What should you check if a scheduled refresh fails?
+A. Refresh history, data-source credentials, gateway status where applicable, and error details
+B. Chart titles only
+C. The number of slicers only
+D. The dashboard background  
+Q238. What is the purpose of workspace roles in Power BI Service?
+A. To control what users can do within a workspace
+B. To change the data type of every column
+C. To create DAX formulas automatically
+D. To control the font size of reports  
+Q239. Which statement about sharing reports in Power BI is correct?
+A. Sharing a report does not automatically guarantee access to every underlying data source or semantic model
+B. Anyone who receives a report link always gets unrestricted access to the data
+C. Publishing a report disables all security
+D. Workspace permissions have no effect on collaboration  
+Q240. Why is governance important in an enterprise Power BI environment?
+A. It supports controlled access, consistent definitions, compliance, and reliable management of analytical assets
+B. It guarantees that every report is error-free without testing
+C. It eliminates the need for security
+D. It automatically fixes every data-quality problem  
+Section E: Expert Business Scenarios
+Q241. Your company has 50 million sales records. Executives need fast monthly summaries, while analysts sometimes need detailed transaction-level data. Which design could help?
+A. A suitable aggregation strategy combined with a detailed fact table and carefully configured model storage
+B. A single card visual containing all transactions
+C. A separate report page for every sales record
+D. A table containing only product names  
+Q242. A Total Sales measure returns correct overall sales but incorrect values by product category. What should you investigate?
+A. Relationships, fact-table grain, filter propagation, and the DAX calculation
+B. The report background image
+C. The title font
+D. The number of dashboard colors  
+Q243. A company wants to calculate sales by shipping date while retaining its existing OrderDate analysis. What is a suitable modeling approach?
+A. Use a shared Date table with appropriate active and inactive relationships, activating the required relationship in the measure with USERELATIONSHIP()
+B. Delete the OrderDate column
+C. Create a separate Power BI file for every date
+D. Remove all relationships  
+Q244. A report needs to show each product's sales as a percentage of the selected region's total sales. Which approach is appropriate?
+A. Calculate product sales divided by a denominator that removes the product filter while preserving the selected region filter
+B. Divide product sales by the number of report pages
+C. Remove every filter from the model
+D. Calculate the maximum sales value  
+Q245. A report displays months alphabetically instead of chronologically. What should you do?
+A. Sort the month-name column by a numeric month-order column
+B. Remove all month names
+C. Change the visual to a pie chart
+D. Use a random sort order  
+Q246. Your DirectQuery report is slow because each visual sends expensive queries to the source. What is the most sensible next step?
+A. Analyze query performance and consider source optimization, simpler visuals, aggregation strategies, or a different storage mode if appropriate
+B. Add more visuals to the report
+C. Create duplicate copies of all tables
+D. Remove all relationships without testing  
+Q247. Regional managers must see only their assigned region, but executives need access to all regions. What is the best approach?
+A. Configure appropriate RLS roles, assign users correctly, and validate access using suitable test accounts
+B. Hide the Region slicer from managers
+C. Use different chart colors for each user
+D. Create a bookmark for each manager and assume it secures the data  
+Q248. A company wants to track year-over-year growth while allowing users to filter by region and product category. What should you implement?
+A. Date-based measures that calculate current-period and prior-year sales while preserving relevant region and product filters
+B. A fixed text box showing one growth percentage
+C. A measure that removes every filter
+D. A chart that contains no date field  
+Q249. A dashboard's numbers differ from the company's official financial report. What should you do first?
+A. Reconcile definitions, source data, date filters, transaction grain, relationships, and calculation logic
+B. Change the report colors
+C. Hide the inconsistent values
+D. Remove all slicers  
+Q250. You have completed an enterprise Power BI solution. What is the best approach before releasing it to production?
+A. Validate measures, test security, verify refresh and gateway behavior, review performance, document business definitions, and complete user acceptance testing
+B. Publish immediately without validation
+C. Remove all documentation
+D. Give every user administrator access  
+Answer Key: Level 5
+Try answering all 50 questions before checking your answers.
+Q.	Answer	Explanation
+201	B	Context transition converts row context into filter context, commonly through CALCULATE.
+202	A	SUM returns total sales under the current evaluation context.
+203	B	SUM adds a column; SUMX evaluates an expression row by row and sums the results.
+204	C	4 × ₹250 = ₹1,000.
+205	A	CALCULATETABLE evaluates a table expression under a modified filter context.
+206	B	REMOVEFILTERS clears the specified Category filter while retaining other applicable filters.
+207	A	ISINSCOPE checks whether a column is a grouping level in the current context.
+208	A	NONVISUAL is used in supported DAX query expressions to distinguish grouping filters from measure-filtering behavior.
+209	B	USERELATIONSHIP activates an existing inactive relationship for a calculation.
+210	A	USERELATIONSHIP allows a measure to use the inactive ShipDate relationship.
+211	A	Composite models combine supported storage modes or data-source arrangements.
+212	B	DirectQuery queries the source as required, subject to caching and connector behavior.
+213	A	Dual tables can behave as Import or DirectQuery depending on the query and model.
+214	A	Aggregation tables store summaries to answer suitable queries more efficiently.
+215	A	Star schemas simplify relationships and make analytical filtering more predictable.
+216	A	Defining grain clarifies what each fact-table row represents.
+217	A	Role-playing dimensions serve multiple purposes, such as Order Date and Ship Date.
+218	A	Bridge tables help model relationships between entities, including many-to-many relationships.
+219	A	Bidirectional filtering can create ambiguous paths and unexpected results.
+220	A	Good models define grain, use appropriate dimensions, and select suitable storage modes.
+221	A	Performance Analyzer helps identify slow visuals and queries.
+222	A	VertiPaq is the in-memory analytical storage engine used by imported tabular data.
+223	A	Removing unnecessary columns can reduce model size.
+224	A	High-cardinality columns contain many distinct values and can require more storage.
+225	A	Query folding translates supported transformations into source-side operations.
+226	A	Source-side processing can reduce local workload and improve efficiency.
+227	A	Complex DAX can require expensive calculations and slow visual queries.
+228	A	DirectQuery performance depends on source queries, model design, and visual workload.
+229	A	Incremental refresh refreshes relevant partitions instead of reprocessing all historical data each time, where supported.
+230	A	Performance tools and measure inspection help identify calculation bottlenecks.
+231	A	RLS restricts which rows users can access.
+232	A	OLS restricts access to model objects such as tables or columns.
+233	A	Dynamic RLS uses user identity or attributes to filter data.
+234	A	USERPRINCIPALNAME returns the current user's principal name.
+235	A	Deployment pipelines support controlled promotion through development, test, and production.
+236	A	A gateway provides connectivity between supported cloud services and sources that require gateway access.
+237	A	Refresh history, credentials, gateway status, and errors help diagnose refresh failures.
+238	A	Workspace roles determine the actions users can perform within a workspace.
+239	A	Report sharing does not automatically grant every required permission to underlying resources.
+240	A	Governance supports access control, consistency, compliance, and reliable management.
+241	A	Aggregations can accelerate summaries while retaining detailed transaction data.
+242	A	Incorrect relationships, granularity, or filter propagation can cause category-level discrepancies.
+243	A	USERELATIONSHIP can activate the inactive ShipDate relationship within a measure.
+244	A	Removing product filters from the denominator while retaining region context calculates the regional contribution.
+245	A	Sorting month names by a numeric month column restores chronological order.
+246	A	Source optimization, simpler visuals, aggregation, or another storage mode may improve DirectQuery performance.
+247	A	RLS roles and correct assignments enforce appropriate regional access.
+248	A	Date-based measures can compare periods while respecting relevant business filters.
+249	A	Reconciliation identifies differences in business definitions, data, filters, and calculations.
+250	A	Production readiness requires validation, security testing, performance checks, documentation, and user acceptance testing.
+
+
+Expert Level Score Guide
+Correct Answers	Assessment
+45–50	Excellent — strong expert-level foundation
+38–44	Very good — revise the concepts you missed
+30–37	Good — practise advanced DAX and model design
+20–29	Revisit storage modes, security, and optimization
+Below 20	Review the explanations and practise with sample datasets
+
+
+These are practice benchmarks, not official Microsoft certification scoring thresholds.
+🎯 Congratulations! You Have Completed All 250 Power BI MCQs
+You have now covered five levels:
+Level	Questions	Main Focus
+Level 1	1–50	Fundamentals and basic visuals
+Level 2	51–100	Power Query and data modeling
+Level 3	101–150	DAX and evaluation context
+Level 4	151–200	Advanced DAX and optimization
+Level 5	201–250	Expert modeling, security, and architecture
+Total	250	Beginner to Expert
+
+
+What I Recommend Next
+Since you're preparing for Data Analyst roles and building Power BI dashboards, the next step should be practical questions rather than simply memorizing more MCQs.
+
+Choose one of these paths:
+
+1. Power BI Interview Questions — 100 Questions
+Real-world interview questions with professional answers.
+
+2. Advanced DAX Practice — 50 Questions
+Hands-on exercises involving CALCULATE, SUMX, RANKX, ALLSELECTED, running totals, and year-over-year growth.
+
+3. Power BI Practical Assessment
+A simulated Data Analyst test involving data cleaning, relationships, DAX measures, charts, and dashboard design.
+
+4. Power BI Scenario-Based MCQs — 100 Questions
+Business problems involving sales, finance, operations, customer behavior, and management reporting.
+
+My recommendation: Option 3 — Power BI Practical Assessment. It will help you apply the concepts to the kind of tasks you may encounter in Data Analyst interviews.
+
+
+
+
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
